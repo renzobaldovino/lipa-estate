@@ -12,7 +12,7 @@ import { FcApproval } from "react-icons/fc";
 
 const Property = () => {
     let { id } = useParams<string>();
-    const [i, setI] = useState(Number(id) - 1);
+    const [i, _setI] = useState(Number(id) - 1);
     const { map } = useMap();
 
     useEffect(() => {
