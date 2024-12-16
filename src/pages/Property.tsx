@@ -25,7 +25,7 @@ const Property = () => {
                 <h1 className='text-4xl font-semibold'>{PROPERTIES[i].name}</h1>
                 <div className='flex items-center gap-4 text-lg'>
                     <span className='flex items-center gap-2'><FiShare />Share</span>
-                    <span className='flex items-center gap-2'><FiHeart />Share</span>
+                    <span className='flex items-center gap-2'><FiHeart />Save</span>
                 </div>
             </div>
             <div className='pb-8 grid grid-cols-2 gap-4 border-b border-black'>
