@@ -3,7 +3,7 @@ import { NAV_ITEMS } from "../utils/constants";
 
 const Navbar = () => {
   return (
-    <div className="bg-primary sticky top-0 px-16 py-4">
+    <div className="bg-primary sticky top-0 px-16 py-4 z-50">
       <nav className="flex items-center">
         <p className="text-xl font-bold uppercase">Lipa Estate</p>
         <ul className="ml-auto mr-8 flex gap-6">
